@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ArrayOfEmployee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Employee>
+		<Id>1</Id>
+		<Name>Копылов Назар Богданович</Name>
+		<PhoneNumber>+7 (922) 277-78-81</PhoneNumber>
+		<BirthDate>27.05.1983</BirthDate>
+		<Address>364034, г. Чаплыгин, ул. Хавская, дом 62, квартира 178</Address>
+	</Employee>
+	<Employee>
+		<Id>2</Id>
+		<Name>Сысоева Диана Петровна</Name>
+		<PhoneNumber>+7 (937) 100-63-29</PhoneNumber>
+		<BirthDate>22.12.1998</BirthDate>
+		<Address>182500, г. Усть-Камчатск, ул. Олонецкая, дом 10, квартира 213</Address>
+	</Employee>
+	<Employee>
+		<Id>3</Id>
+		<Name>Зайцев Юрий Алексеевич</Name>
+		<PhoneNumber>+7 (999) 842-23-80</PhoneNumber>
+		<BirthDate>23.07.1983</BirthDate>
+		<Address>433228, г. Маяковское, ул. Щипковский 2-й пер, дом 38, квартира 8</Address>
+	</Employee>
+	<Employee>
+		<Id>4</Id>
+		<Name>Негода Тарас Петрович</Name>
+		<PhoneNumber>+7 (991) 132-56-16</PhoneNumber>
+		<BirthDate>22.02.1963</BirthDate>
+		<Address>666035, г. Щучье, ул. Графитный проезд, дом 73, квартира 490</Address>
+	</Employee>
+	<Employee>
+		<Id>5</Id>
+		<Name>Кулакова София Богдановна</Name>
+		<PhoneNumber>+7 (949) 494-26-68</PhoneNumber>
+		<BirthDate>05.12.1961</BirthDate>
+		<Address>169834, г. Юкаменское, ул. Лесозавод 1-я, дом 20, квартира 63</Address>
+	</Employee>
+	<Employee>
+		<Id>6</Id>
+		<Name>Буров Казбек Петрович</Name>
+		<PhoneNumber>+7 (951) 417-72-28</PhoneNumber>
+		<BirthDate>07.09.1959</BirthDate>
+		<Address>433306, г. Ясное, ул. Коли Томчака, дом 30, квартира 261</Address>
+	</Employee>
+	<Employee>
+		<Id>7</Id>
+		<Name>Алчевский Казбек Валерьевич</Name>
+		<PhoneNumber>+7 (916) 854-85-31</PhoneNumber>
+		<BirthDate>02.05.1999</BirthDate>
+		<Address>668214, г. Красный Холм, ул. Чернорецкий пер, дом 22, квартира 38</Address>
+	</Employee>
+	<Employee>
+		<Id>8</Id>
+		<Name>Василенко Ника Юхимовна</Name>
+		<PhoneNumber>+7 (971) 341-75-73</PhoneNumber>
+		<BirthDate>23.12.1994</BirthDate>
+		<Address>607950, г. Тюменцево, ул. Сыромятнический 3-й пер, дом 42, квартира 261</Address>
+	</Employee>
+	<Employee>
+		<Id>9</Id>
+		<Name>Молчанов Эдуард Платонович</Name>
+		<PhoneNumber>+7 (989) 561-92-71</PhoneNumber>
+		<BirthDate>27.06.1970</BirthDate>
+		<Address>446563, г. Полтавское, ул. Добрынинский 1-й пер, дом 81, квартира 379</Address>
+	</Employee>
+	<Employee>
+		<Id>10</Id>
+		<Name>Иванова Пелагея Борисовна</Name>
+		<PhoneNumber>+7 (922) 447-14-63</PhoneNumber>
+		<BirthDate>11.03.1974</BirthDate>
+		<Address>155571, г. Савино, ул. Шкиперская, дом 54, квартира 336</Address>
+	</Employee>
+	<Employee>
+		<Id>11</Id>
+		<Name>Галкин Гавриил Станиславович</Name>
+		<PhoneNumber>+7 (931) 124-24-24</PhoneNumber>
+		<BirthDate>05.09.1961</BirthDate>
+		<Address>658127, г. Ртищево, ул. Могильцевский М. пер, дом 86, квартира 478</Address>
+	</Employee>
+	<Employee>
+		<Id>12</Id>
+		<Name>Таранец Доминика Михайловна</Name>
+		<PhoneNumber>+7 (928) 413-65-29</PhoneNumber>
+		<BirthDate>25.06.1950</BirthDate>
+		<Address>413863, г. Белорецк, ул. Малая Красноармейская, дом 27, квартира 385</Address>
+	</Employee>
+	<Employee>
+		<Id>13</Id>
+		<Name>Алчевский Йошка Брониславович</Name>
+		<PhoneNumber>+7 (904) 345-66-40</PhoneNumber>
+		<BirthDate>10.02.1973</BirthDate>
+		<Address>140184, г. Белый Яр, ул. Манежная пл, дом 46, квартира 425</Address>
+	</Employee>
+	<Employee>
+		<Id>14</Id>
+		<Name>Захарченко Йоханна Владимировна</Name>
+		<PhoneNumber>+7 (900) 149-45-90</PhoneNumber>
+		<BirthDate>07.11.1958</BirthDate>
+		<Address>674065, г. Одоев, ул. Поселковая, дом 80, квартира 82</Address>
+	</Employee>
+	<Employee>
+		<Id>15</Id>
+		<Name>Тягай Цефас Сергеевич</Name>
+		<PhoneNumber>+7 (943) 384-26-45</PhoneNumber>
+		<BirthDate>12.03.1954</BirthDate>
+		<Address>396772, г. Саров, ул. Южное ш (Фрунзенский), дом 58, квартира 275</Address>
+	</Employee>
+	<Employee>
+		<Id>16</Id>
+		<Name>Данилова Цвета Максимовна</Name>
+		<PhoneNumber>+7 (945) 379-85-10</PhoneNumber>
+		<BirthDate>03.08.1979</BirthDate>
+		<Address>175456, г. Великий Устюг, ул. Чехова, дом 79, квартира 165</Address>
+	</Employee>
+	<Employee>
+		<Id>17</Id>
+		<Name>Никонова Люся Петровна</Name>
+		<PhoneNumber>+7 (974) 213-84-51</PhoneNumber>
+		<BirthDate>23.02.1958</BirthDate>
+		<Address>665446, г. Юрьев- Польский, ул. Чымский 1-й пер, дом 52, квартира 288</Address>
+	</Employee>
+	<Employee>
+		<Id>18</Id>
+		<Name>Третьякова Кристина Ивановна</Name>
+		<PhoneNumber>+7 (903) 624-73-58</PhoneNumber>
+		<BirthDate>04.10.1952</BirthDate>
+		<Address>624204, г. Усолье, ул. Танкистов 5-й пер, дом 79, квартира 378</Address>
+	</Employee>
+	<Employee>
+		<Id>19</Id>
+		<Name>Лобанов Игнат Борисович</Name>
+		<PhoneNumber>+7 (956) 618-36-77</PhoneNumber>
+		<BirthDate>06.10.1986</BirthDate>
+		<Address>606069, г. Балтийск, ул. Долгоозерная, дом 39, квартира 113</Address>
+	</Employee>
+	<Employee>
+		<Id>20</Id>
+		<Name>Бутко Динар Александрович</Name>
+		<PhoneNumber>+7 (964) 410-83-39</PhoneNumber>
+		<BirthDate>04.05.1995</BirthDate>
+		<Address>606364, г. Чаплыгин, ул. Добросельская, дом 20, квартира 93</Address>
+	</Employee>
+	<Employee>
+		<Id>21</Id>
+		<Name>Горбунов Корнелий Васильевич</Name>
+		<PhoneNumber>+7 (918) 108-92-21</PhoneNumber>
+		<BirthDate>04.06.1983</BirthDate>
+		<Address>350000, г. Ухта, ул. Золотистый пер, дом 64, квартира 318</Address>
+	</Employee>
+	<Employee>
+		<Id>22</Id>
+		<Name>Медяник Йоханес Артёмович</Name>
+		<PhoneNumber>+7 (970) 301-40-17</PhoneNumber>
+		<BirthDate>03.10.1959</BirthDate>
+		<Address>102558, г. Полтавка, ул. Лесная, дом 64, квартира 447</Address>
+	</Employee>
+	<Employee>
+		<Id>23</Id>
+		<Name>Петухова Хильда Борисовна</Name>
+		<PhoneNumber>+7 (963) 260-34-70</PhoneNumber>
+		<BirthDate>08.06.1984</BirthDate>
+		<Address>403071, г. Нюрба, ул. Монетчиковский 6-й пер, дом 78, квартира 33</Address>
+	</Employee>
+	<Employee>
+		<Id>24</Id>
+		<Name>Зимин Игнат Алексеевич</Name>
+		<PhoneNumber>+7 (909) 106-48-42</PhoneNumber>
+		<BirthDate>13.10.1970</BirthDate>
+		<Address>658620, г. Каневская, ул. Сибирский проезд, дом 64, квартира 485</Address>
+	</Employee>
+	<Employee>
+		<Id>25</Id>
+		<Name>Лазарева Цвета Владимировна</Name>
+		<PhoneNumber>+7 (969) 844-96-42</PhoneNumber>
+		<BirthDate>08.02.1985</BirthDate>
+		<Address>644971, г. Чехов, ул. Тенистый проезд, дом 85, квартира 82</Address>
+	</Employee>
+</ArrayOfEmployee>
