@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 //4. Доступ к персональным данным сотрудников в компании.
 
@@ -12,11 +9,12 @@ namespace Lab6_Proxy
     {
         static void Main(string[] args)
         {
-            Proxy proxy = new Proxy();
+            Proxy proxy = new Proxy(true);
             int count = GetEmployeesCount(proxy);
             string[] phoneNumbers = GetPhoneNumbers(proxy);
             Employee e1 = GetEmployee(proxy, 3);
             Employee e2 = GetEmployee(proxy, 15);
+            proxy.ChangeAccess(false);
             Employee e3 = GetEmployee(proxy, 40);
             Console.ReadKey();
         }

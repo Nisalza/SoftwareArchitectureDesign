@@ -1,34 +1,48 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lab6_Proxy
 {
     public class Proxy : IEmployeesLoader
     {
         private EmployeesList _employeesList;
+
+        private bool _access;
         
+        public Proxy(bool access)
+        {
+            _access = access;
+        }
+
+        public void ChangeAccess(bool access)
+        {
+            _access = access;
+        }
+
         public Employee GetEmployee(int id)
         {
-            TestEmployeeList();
+            RequestStartTest();
             Employee emp = _employeesList.GetEmployee(id);
             return emp;
         }
 
         public int GetEmployeesCount()
         {
-            TestEmployeeList();
+            RequestStartTest();
             int count = _employeesList.GetEmployeesCount();
             return count;
         }
 
         public Employee[] GetEmployees()
         {
-            TestEmployeeList();
+            RequestStartTest();
             Employee[] employees = _employeesList.GetEmployees();
             return employees;
+        }
+
+        private void RequestStartTest()
+        {
+            TestAccess();
+            TestEmployeeList();
         }
 
         private void TestEmployeeList()
@@ -37,6 +51,12 @@ namespace Lab6_Proxy
             {
                 _employeesList = new EmployeesList();
             }
+        }
+
+        private void TestAccess()
+        {
+            if (!_access) { }
+            throw new Exception("Нет доступа");
         }
     }
 }
